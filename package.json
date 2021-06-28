@@ -1,0 +1,32 @@
+{
+  "name": "quickly-express-api",
+  "version": "1.0.0",
+  "description": "A ready for use express API skeleton",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "lint": "standard --fix"
+  },
+  "author": "A. H <granviamurcia2@gmail.com> (https://antoniohnz.me)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toniop99/quickly-express-api.git"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "10.0.0",
+    "express": "4.17.1",
+    "helmet": "4.6.0",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7",
+    "standard": "16.0.3"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
