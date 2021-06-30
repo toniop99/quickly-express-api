@@ -3,7 +3,7 @@ import { Router } from 'express'
 const router = Router()
 
 router.get('/', (_, res) => {
-  res.send('Welcome to quickly API')
+  res.sendFile('public/index.html', { root: 'src' })
 })
 
 export { router as Home }

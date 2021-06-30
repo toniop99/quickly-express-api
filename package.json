@@ -1,6 +1,6 @@
 {
   "name": "quickly-express-api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A ready for use express API skeleton",
   "main": "index.js",
   "type": "module",
