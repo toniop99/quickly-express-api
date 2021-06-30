@@ -15,10 +15,12 @@ npm install
 npm run lint
 ```
 
-## Test (work in progress)
+## Test
 
 ```
 npm run test
+
+npm run test:watch
 ```
 
 ## Development
